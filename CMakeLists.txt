@@ -7,7 +7,7 @@ include_directories(.)
 
 add_executable(TBA
         main.cpp
-        TBA.cpp
-        TBA.h
+        stack.cpp
+        stack.h
         welcome.cpp
         welcome.h)

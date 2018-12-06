@@ -1,14 +1,21 @@
 #include <iostream>
-#include "TBA.h"
+#include "stack.h"
+#include "welcome.h"
 
 using namespace std;
 
 int main()
 {
-    
+    // Variabel
+
     string kalimat;
     myStack S,kata1,kata2,kata3,kata4,kata5;
     address P,Q;
+
+    //Program
+
+    welcomeIndo();
+    cout << "" <<endl;
     cout << "Masukkan kalimat : ";
     getline(cin, kalimat);
     kalimat = kalimat + ' ';
@@ -73,9 +80,11 @@ int main()
 
     bool cek = cekKalimat(kata1,kata2,kata3,kata4,kata5);
     if (cek){
-        cout << endl << "Hasil : Kalimat Valid" << endl;
+        valid();
+        cout << endl << "Hasil : Kalimat Valid. Program Otomatis Keluar" << endl;
     }
     else {
-        cout << endl << "Hasil : Kalimat Tidak Valid" << endl;
+        tidakValid();
+        cout << endl << "Hasil : Kalimat Tidak Valid. Program Otomatis Keluar" << endl;
     }
 }
