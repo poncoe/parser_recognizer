@@ -5,26 +5,7 @@ using namespace std;
 
 int main()
 {
-    cout<< "Selamat Datang di Tugas Besar Teori Bahasa dan Automata"<<endl<<endl;
-    cout<< "Nama  : "<< " 1. Ni Luh Made Dita Anjani \t (1301174676)"<<endl;
-    cout<< "Kelas : " << " IFIK-41-01"<< endl << endl;
-
-    cout << "Berikut pilihan kata yang dapat anda pilih :"<<endl << endl;
-    cout << "_________________________________________" << endl;
-    cout << "|NO|SUBJEK|PREDIKAT|OBJEK    |KETERANGAN|" << endl;
-    cout << "_________________________________________" << endl;
-    cout << "|1 |Saya  |Main    |Air      |Besok     |" << endl;
-    cout << "|2 |Sani  |Makan   |Jus      |Kemarin   |" << endl;
-    cout << "|3 |Susi  |Mandi   |Kelereng |Lusa      |" << endl;
-    cout << "|4 |Sekar |Minum   |Nasi     |Sekarang  |" << endl;
-    cout << "|5 |Septi |Tidur   |Permen   |Tadi      |" << endl;
-    cout << "_________________________________________" << endl << endl;
-    cout << "Syarat kalimat valid yaitu membentuk pola : " << endl;
-    cout << "1. SPOK" << endl;
-    cout << "2. SPO" << endl;
-    cout << "3. SPK" << endl;
-    cout << "4. SP" << endl << endl;
-
+    
     string kalimat;
     myStack S,kata1,kata2,kata3,kata4,kata5;
     address P,Q;
